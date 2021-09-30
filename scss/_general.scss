@@ -1,0 +1,223 @@
+/* GENÉRICOS ///////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.body {
+  font-size: 18px;
+  font-family: "gudea", sans-serif;
+  font-weight: 500;
+  background-color: whitesmoke;
+  &__bordes {
+    border-left: black 10px solid;
+    border-right: black 10px solid;
+  }
+}
+
+#a_color {
+  color: $colorEnlace;
+  text-decoration: none;
+}
+
+.parrafo {
+  font-size: 16px;
+  font-family: "gudea", sans-serif;
+  font-weight: 500;
+  text-align: justify;
+  color: $colorParrafo;
+}
+
+#letrasBlancas {
+  color: $colorLetras;
+  font-weight: bold;
+}
+
+main {
+  img {
+    border: $bordeImg 4px;
+    border-style: inset;
+    cursor: pointer;
+  }
+}
+
+/* NAV //////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+nav {
+  div {
+    a img {
+      height: 30px;
+      width: 185px;
+    }
+    div {
+      ul {
+        li {
+          a:hover {
+            transition: all 0.5s;
+            background-color: $colorTransicionNav;
+            border-radius: 10px;
+            padding: 2px;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+}
+
+#nav_stick {
+  position: sticky;
+  width: 100%;
+  top: 0px;
+  z-index: 20;
+}
+
+#nav_ancho_menu {
+  margin: 0%;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  font-weight: bold;
+}
+
+/* HEADER //////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: $colorFondoHeader;
+  background-image: url(../images/banner-header.png);
+  background-repeat: repeat;
+  background-size: contain;
+  align-items: center;
+  justify-content: center;
+  height: 230px;
+  border: rgb(41, 40, 40) 5px solid;
+}
+
+.header {
+  font-family: "gudea", sans-serif;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-image: $colorClaseHeader;
+  width: 80%;
+  color: $colorHuno;
+  font-weight: bold;
+  text-align: center;
+  font-style: italic;
+  font-size: 37px;
+  border: 5px $colorHeaderBorde;
+  border-style: groove;
+  height: auto;
+}
+
+/* H (2,3,4,5) */ //////////////////////////////////////////////////////////////////////////////////////////////////
+
+.h {
+  font-style: italic;
+  &__dos {
+    background-image: $colorFondoHdos;
+    font-family: "gudea", sans-serif;
+    font-style: italic;
+    text-align: center;
+    font-size: 37px;
+    font-weight: bolder;
+    color: $colorHdos;
+    align-self: center;
+    justify-self: center;
+    margin: 0%;
+    height: auto;
+    padding-bottom: 7px;
+    padding-top: 7px;
+  }
+
+  &__tres {
+    text-align: left;
+    font-style: italic;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  &__cuatro {
+    text-align: left;
+    font-size: 21px;
+    font-style: italic;
+    font-weight: bold;
+  }
+
+  &__cinco {
+    font-size: 15px;
+    font-style: italic;
+    color: $colorHcinco;
+    text-align: left;
+    font-weight: bold;
+  }
+}
+
+h4:hover {
+  font-weight: bolder;
+  text-decoration: underline 3px;
+  cursor: pointer;
+}
+
+// FOOTER //////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+footer {
+  height: auto;
+  background-color: $colorFooter;
+  div {
+    i {
+      font-size: 40px;
+      border-radius: 2px;
+      color: $colorIcono;
+    }
+    ul {
+      img {
+        text-align: center;
+        margin-right: 0%;
+        padding-left: 0%;
+        height: 30px;
+        width: 185px;
+      }
+      li {
+        text-decoration: none;
+        list-style-type: none;
+        a {
+          padding: 5px;
+          font-size: 17px;
+          text-decoration: none;
+          list-style-type: none;
+          text-align: center;
+          font-weight: 900;
+          background-image: $colorFooterBoton;
+          border-radius: 20px;
+        }
+      }
+    }
+  }
+  p {
+    color: $colorFooterParrafo;
+    background-color: black;
+    font-weight: bold;
+    font-size: 15px;
+  }
+}
+
+#copy_R {
+  font-size: 25px;
+  margin-right: 2%;
+}
+
+.footer__icono--fb:hover {
+  transition: 0.1s;
+  background-color: rgb(25, 1, 131);
+}
+.footer__icono--tw:hover {
+  transition: 0.1s;
+  background-color: rgb(79, 87, 211);
+}
+.footer__icono--ig:hover {
+  transition: 0.1s;
+  background-color: rgb(158, 3, 137);
+}

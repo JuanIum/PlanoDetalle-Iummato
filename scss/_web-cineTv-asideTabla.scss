@@ -1,0 +1,43 @@
+// WEB - CINE Y TV - ASIDE TABLAS /////////////////////////////////////////////////////////////////////////////
+
+.aside__tabla--set {
+  border: $colorBordeTabla 4px solid;
+  font-size: 17px;
+}
+.aside__tabla--margenes {
+  margin-left: 8%;
+  margin-right: 8%;
+  text-align: center;
+}
+
+#tabla_titulo-cine {
+  background-image: $colorTituloTablaCine;
+  color: $colorTituloCine;
+  margin-bottom: 7px;
+  padding: 5px;
+  height: auto;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#tabla_titulo-tv {
+  background-image: $colorTituloTablaTv;
+  color: $colorTituloTv;
+  margin-bottom: 7px;
+  padding: 5px;
+  height: auto;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+aside p {
+  background-image: $colorAsideFondoParrafo;
+  font-style: italic;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: $colorAsideParrafo;
+  margin: 0%;
+}

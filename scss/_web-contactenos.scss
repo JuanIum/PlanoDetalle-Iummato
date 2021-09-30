@@ -1,0 +1,85 @@
+// WEB - CONTACTENOS: CLASES, ID Y ETIQUETAS ESPECÍFICAS ////////////////////////////////////////////////////////////
+
+.contactenos {
+  &__row {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  &__col {
+    display: flex;
+    flex-direction: column;
+    width: 99%;
+    align-items: center;
+    text-align: center;
+  }
+  &__icono--formato {
+    height: 28px;
+    width: 28px;
+    font-size: 28px;
+    border-radius: 2px;
+    color: $colorIconoContact;
+    background-color: $colorFondoIconoContact;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .contactenos__icono--flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+#contactenos_texto-sm {
+  font-weight: bold;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+// FORMULARIO DE CONTACTO //
+
+.contactenos__form {
+  display: flex;
+  height: auto;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  &--set {
+    width: 48%;
+    height: auto;
+    align-self: center;
+    background-color: $colorFondoFormulario;
+    color: $colorParrafoFormulario;
+    font-weight: bold;
+    padding: 7px;
+    border: $colorBordeFormulario 5px solid;
+  }
+  &--margen {
+    margin-top: 10px;
+  }
+  &--botones {
+    text-align: center;
+  }
+  &__boton--borde {
+    border: $colorBordeFormulario 3px solid;
+  }
+}
+
+// TABLA PUBLICITARIA //
+
+.contactenos__tabla {
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 10px;
+  &--alineacion {
+    width: 60%;
+  }
+  &--borde {
+    border: 5px solid $colorBordeFormulario;
+  }
+}

@@ -1,0 +1,68 @@
+// VARIABLES - COLORES //
+
+// GENERALES
+$colorParrafo: rgb(26, 21, 21);
+$colorEnlace: white;
+$colorLetras: white;
+$bordeImg: rgb(10, 114, 114);
+
+// NAV
+$colorTransicionNav: rgb(10, 114, 114);
+$colorNav: black;
+
+// HEADER
+$colorFondoHeader: rgb(4, 24, 24);
+$colorHuno: rgb(240, 234, 234);
+$colorHeaderBorde: rgb(41, 40, 40);
+$colorClaseHeader: linear-gradient(black, rgb(10, 10, 10), black);
+
+// FOOTER
+$colorFooter: black;
+$colorFooterParrafo: rgb(240, 234, 234);
+$colorIcono: aliceblue;
+$colorFooterBoton: linear-gradient(black, rgb(10, 114, 114), black);
+
+// H - TITULOS
+$colorFondoHdos: linear-gradient(black, rgb(5, 41, 41), black);
+$colorHdos: white;
+$colorFondoHtres: rgb(235, 159, 19);
+$colorHcinco: rgb(235, 159, 19);
+
+// NOSOTROS
+$colorFondoNosotros: whitesmoke;
+$colorBordeNosotros: rgb(156, 61, 61);
+
+//CONTACTENOS
+$colorFondoFormulario: rgb(235, 159, 19);
+$colorParrafoFormulario: black;
+$colorBordeFormulario: rgb(5, 41, 41);
+$colorIconoContact: aliceblue;
+$colorFondoIconoContact: black;
+
+// WEB - CINE y TV
+$colorArticuloA: white;
+$colorArticuloB: rgb(240, 238, 238);
+$colorNotaI: linear-gradient(black, rgb(5, 41, 41), black);
+
+/* TABLAS */
+$colorAside: linear-gradient(
+  to left,
+  rgb(207, 203, 203),
+  rgb(155, 153, 153),
+  rgb(207, 203, 203)
+);
+$colorBordeTabla: rgb(10, 10, 10);
+$colorTituloTablaCine: linear-gradient(
+  rgb(235, 98, 19),
+  rgb(219, 32, 32),
+  rgb(235, 98, 19)
+);
+$colorTituloCine: rgb(250, 250, 16);
+$colorTituloTablaTv: linear-gradient(black, rgb(5, 41, 41), black);
+$colorTituloTv: rgb(250, 250, 16);
+$colorAsideFondoParrafo: linear-gradient(
+  rgb(235, 159, 19),
+  rgb(216, 219, 32),
+  rgb(235, 159, 19)
+);
+$colorAsideParrafo: rgb(5, 41, 41);

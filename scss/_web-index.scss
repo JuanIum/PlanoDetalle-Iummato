@@ -1,0 +1,81 @@
+// WEB - INDEX: CLASES, ID Y ETIQUETAS ESPECÍFICAS  ////////////////////////////////////////////////////////////////////
+
+.index__margenes {
+  margin: 1%;
+}
+
+// BARRA DE NAVEGACIÓN //
+
+.barra {
+  border: 1px rgb(41, 40, 40) solid;
+  &__flex {
+    padding-left: 50%;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  &__boton--color {
+    background-color: white;
+    font-weight: bold;
+    color: black;
+  }
+  &__padding {
+    padding: 5px;
+  }
+}
+
+#barra_boton:hover {
+  transition: all 0.8s;
+  background-color: rgb(233, 233, 13);
+  color: rgb(4, 24, 24);
+  font-weight: bold;
+}
+
+// CARROUSEL //
+
+#carrousel {
+  background-image: linear-gradient(black, rgb(5, 41, 41), black);
+  width: 99%;
+}
+#carrousel--anchoAlto {
+  height: auto;
+  width: 75%;
+  margin-left: 13%;
+}
+#carrousel--parrafo {
+  font-size: 3rem;
+  font-weight: bolder;
+   cursor: pointer;
+  text-shadow: -3px 3px 11px grey;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1));
+}
+#carrousel--bajada {
+  font-size: 22px;
+  cursor: pointer;
+  font-weight: bold;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1));
+}
+#index_h-tres {
+  align-self: center;
+  background-color: rgb(235, 159, 19);
+  margin-top: 5px;
+  padding: 3px;
+}
+#index_card-alto {
+  height: auto;
+}
+#index_img-size {
+  align-self: center;
+  width: 400px;
+  height: 256px;
+}
+
+.index__carrousel {
+  &--background {
+    background-color: black;
+  }
+  &--padding {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
