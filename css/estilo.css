@@ -33,13 +33,17 @@ main img {
   border-style: inset;
   cursor: pointer; }
 
+.img__borde--blanco:hover {
+  border: white 4px;
+  border-style: inset; }
+
 /* NAV //////////////////////////////////////////////////////////////////////////////////////////////////////// */
 nav div a img {
   height: 30px;
   width: 185px; }
 
 nav div div ul li a:hover {
-  transition: all 0.5s;
+  transition: all 0.3s;
   background-color: #0a7272;
   border-radius: 10px;
   padding: 2px;
@@ -254,9 +258,7 @@ footer {
   .main0 {
     background-color: white;
     grid-area: main0;
-    height: auto;
-    display: flex;
-    justify-content: center; }
+    height: auto; }
   .main1 {
     background-color: #f0eeee;
     grid-area: main1;
@@ -288,11 +290,9 @@ footer {
     height: auto;
     flex-direction: column;
     margin-right: 20px; }
-  .web__article--padding {
-    padding-bottom: 0px; }
   .web__img--centrada {
     display: flex;
-    justify-content: center; } }
+    align-items: center; } }
 
 @media only screen and (min-width: 932px) {
   .grilla {
@@ -619,7 +619,7 @@ aside p {
     padding: 5px; }
 
 #barra_boton:hover {
-  transition: all 0.8s;
+  transition: all 0.1s;
   background-color: #e9e90d;
   color: #041818;
   font-weight: bold; }
