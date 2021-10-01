@@ -605,7 +605,7 @@ aside p {
   margin: 1%; }
 
 #web_novedades {
-  text-shadow: 1px 3px 1px grey; }
+  text-shadow: 2px 2px 2px grey; }
 
 .barra {
   border: 1px #292828 solid; }
@@ -640,7 +640,7 @@ aside p {
   font-size: 3rem;
   font-weight: bolder;
   cursor: pointer;
-  text-shadow: -1px 1px 5px grey;
+  text-shadow: -2px 2px 5px grey;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), black); }
 
 #carrousel--bajada {
@@ -654,8 +654,7 @@ aside p {
   background-color: #eb9f13;
   margin-top: 5px;
   padding: 3px;
-  cursor: pointer;
-  text-shadow: 1px 1px 1px #3b3b3b; }
+  text-shadow: 1px 1px 1px #474545; }
 
 #index_card-alto {
   height: auto; }
