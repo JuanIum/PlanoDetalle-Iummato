@@ -1,6 +1,8 @@
 // VARIABLES - COLORES //
 
 // GENERALES
+$colorFondoBody: whitesmoke;
+$colorMargenesBody: black;
 $colorParrafo: rgb(26, 21, 21);
 $colorEnlace: white;
 $colorLetras: white;
@@ -10,17 +12,32 @@ $bordeImg: rgb(10, 114, 114);
 $colorTransicionNav: rgb(10, 114, 114);
 $colorNav: black;
 
+// BARRA DE NAVEGACIÓN
+$colorBordeBarra: rgb(41, 40, 40);
+$colorBarraBoton: white;
+$colorTransicionBarra: rgb(233, 233, 13);
+$colorBarraBuscar: rgb(4, 24, 24);
+
 // HEADER
 $colorFondoHeader: rgb(4, 24, 24);
 $colorHuno: rgb(240, 234, 234);
 $colorHeaderBorde: rgb(41, 40, 40);
 $colorClaseHeader: linear-gradient(black, rgb(10, 10, 10), black);
 
+// INDEX
+$colorCarrousel: linear-gradient(black, rgb(5, 41, 41), black);
+$colorFondoCarrousel: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1));
+$colorIndexCarrousel: black;
+$colorEfectoSombra: grey;
+
 // FOOTER
 $colorFooter: black;
 $colorFooterParrafo: rgb(240, 234, 234);
 $colorIcono: aliceblue;
 $colorFooterBoton: linear-gradient(black, rgb(10, 114, 114), black);
+$colorIconoFb: rgb(25, 1, 131);
+$colorIconoTw: rgb(110, 120, 250);
+$colorIconoIg: rgb(134, 4, 117);
 
 // H - TITULOS
 $colorFondoHdos: linear-gradient(black, rgb(5, 41, 41), black);
@@ -44,7 +61,7 @@ $colorArticuloA: white;
 $colorArticuloB: rgb(240, 238, 238);
 $colorNotaI: linear-gradient(black, rgb(5, 41, 41), black);
 
-/* TABLAS */
+// TABLAS
 $colorAside: linear-gradient(
   to left,
   rgb(207, 203, 203),

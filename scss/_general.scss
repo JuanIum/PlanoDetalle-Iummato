@@ -9,10 +9,10 @@
   font-size: 18px;
   font-family: "gudea", sans-serif;
   font-weight: 500;
-  background-color: whitesmoke;
+  background-color: $colorFondoBody;
   &__bordes {
-    border-left: black 10px solid;
-    border-right: black 10px solid;
+    border-left: $colorMargenesBody 10px solid;
+    border-right: $colorMargenesBody 10px solid;
   }
 }
 
@@ -93,7 +93,7 @@ header {
   align-items: center;
   justify-content: center;
   height: 230px;
-  border: rgb(41, 40, 40) 5px solid;
+  border: $colorHeaderBorde 5px solid;
 }
 
 .header {
@@ -198,7 +198,7 @@ footer {
   }
   p {
     color: $colorFooterParrafo;
-    background-color: black;
+    background-color: $colorFooter;
     font-weight: bold;
     font-size: 15px;
   }
@@ -211,13 +211,16 @@ footer {
 
 .footer__icono--fb:hover {
   transition: 0.1s;
-  background-color: rgb(25, 1, 131);
+  background-color: $colorIconoFb;
+  cursor: pointer;
 }
 .footer__icono--tw:hover {
   transition: 0.1s;
-  background-color: rgb(79, 87, 211);
+  background-color: $colorIconoTw;
+  cursor: pointer;
 }
 .footer__icono--ig:hover {
   transition: 0.1s;
-  background-color: rgb(158, 3, 137);
+  background-color: $colorIconoIg;
+  cursor: pointer;
 }

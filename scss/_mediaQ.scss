@@ -1,7 +1,6 @@
 // MEDIA QUERIES: ANCHOS DE PANTALLA PARA: CELULAR / TABLET / PC /////////////////////////////////////////////////
 
 //WEB - INDEX //
-
 @media only screen and (max-width: 971px) {
   #carrousel--bajada {
     display: none;
@@ -9,7 +8,6 @@
 }
 
 // WEBS - CINE + TV //
-
 @media only screen and (max-width: 600px) {
   .grilla {
     height: auto;
@@ -30,30 +28,40 @@
     height: auto;
     display: flex;
     align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
   }
 
   .main1 {
     background-color: $colorArticuloB;
     grid-area: main1;
     height: auto;
+    padding-left: 2%;
+    padding-right: 2%;
   }
 
   .article {
     background-image: $colorNotaI;
     grid-area: article;
     height: auto;
+    padding-left: 2%;
+    padding-right: 2%;
   }
 
   .main2 {
     grid-area: main2;
-    background-color:$colorArticuloA;
+    background-color: $colorArticuloA;
     height: auto;
+    padding-left: 2%;
+    padding-right: 2%;
   }
 
   .main3 {
     grid-area: main3;
     background-color: $colorArticuloB;
     height: auto;
+    padding-left: 2%;
+    padding-right: 2%;
   }
 
   .aside {
@@ -111,6 +119,8 @@
     background-color: $colorArticuloA;
     grid-area: main0;
     height: auto;
+    display: flex;
+    justify-content: center;
   }
 
   .main1 {
@@ -161,6 +171,11 @@
   .web__article--padding {
     padding-bottom: 0px;
   }
+
+  .web__img--centrada{
+    display: flex;
+    justify-content: center;
+  }
 }
 @media only screen and (min-width: 932px) {
   .grilla {
@@ -180,7 +195,7 @@
     background-color: $colorArticuloA;
     grid-area: main0;
     height: auto;
-    padding-top: 3%;
+    padding-top: 2%;
     padding-left: 2%;
     padding-bottom: 1%;
     display: flex;
@@ -205,7 +220,7 @@
     height: auto;
     padding-top: 3%;
     padding-left: 2%;
-    padding-bottom:1%;
+    padding-bottom: 1%;
     display: flex;
     align-items: center;
   }
@@ -265,12 +280,11 @@
 }
 
 // WEB - NOSOTROS //
-
 @media only screen and (max-width: 600px) {
   .grillaNosotros {
     height: auto;
     display: grid;
-    background-color:$colorFondoNosotros;
+    background-color: $colorFondoNosotros;
     padding-right: 5%;
     padding-left: 5%;
     padding-top: 10px;
@@ -386,7 +400,6 @@
 }
 
 // WEB - CONTACTENOS //
-
 @media only screen and (max-width: 600px) {
   .contactenos__icono--flex {
     display: flex;
@@ -396,7 +409,6 @@
 }
 
 // FOOTER //
-
 @media only screen and (max-width: 600px) {
   .grillaFooter {
     height: auto;
@@ -472,7 +484,6 @@
     margin-right: 2%;
   }
 }
-
 @media only screen and (min-width: 601px) {
   .grillaFooter {
     height: auto;

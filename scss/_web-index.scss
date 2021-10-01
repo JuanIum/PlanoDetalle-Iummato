@@ -7,17 +7,17 @@
 // BARRA DE NAVEGACIÓN //
 
 .barra {
-  border: 1px rgb(41, 40, 40) solid;
+  border: 1px $colorBordeBarra solid;
   &__flex {
     padding-left: 50%;
-    background-color: black;
+    background-color: $colorNav;
     padding-top: 10px;
     padding-bottom: 10px;
   }
   &__boton--color {
-    background-color: white;
+    background-color: $colorBarraBoton;
     font-weight: bold;
-    color: black;
+    color: $colorNav;
   }
   &__padding {
     padding: 5px;
@@ -26,15 +26,15 @@
 
 #barra_boton:hover {
   transition: all 0.8s;
-  background-color: rgb(233, 233, 13);
-  color: rgb(4, 24, 24);
+  background-color: $colorTransicionBarra;
+  color: $colorBarraBuscar;
   font-weight: bold;
 }
 
 // CARROUSEL //
 
 #carrousel {
-  background-image: linear-gradient(black, rgb(5, 41, 41), black);
+  background-image: $colorCarrousel;
   width: 99%;
 }
 #carrousel--anchoAlto {
@@ -45,19 +45,19 @@
 #carrousel--parrafo {
   font-size: 3rem;
   font-weight: bolder;
-   cursor: pointer;
-  text-shadow: -3px 3px 11px grey;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1));
+  cursor: pointer;
+  text-shadow: -3px 3px 11px $colorEfectoSombra;
+  background-image: $colorFondoCarrousel;
 }
 #carrousel--bajada {
   font-size: 22px;
   cursor: pointer;
   font-weight: bold;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1));
+  background-image: $colorFondoCarrousel;
 }
 #index_h-tres {
   align-self: center;
-  background-color: rgb(235, 159, 19);
+  background-color: $colorFondoHtres;
   margin-top: 5px;
   padding: 3px;
 }
@@ -72,7 +72,7 @@
 
 .index__carrousel {
   &--background {
-    background-color: black;
+    background-color: $colorIndexCarrousel;
   }
   &--padding {
     padding-top: 40px;
