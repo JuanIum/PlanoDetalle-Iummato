@@ -604,6 +604,9 @@ aside p {
 .index__margenes {
   margin: 1%; }
 
+#web_novedades {
+  text-shadow: 1px 3px 1px grey; }
+
 .barra {
   border: 1px #292828 solid; }
   .barra__flex {
@@ -637,7 +640,7 @@ aside p {
   font-size: 3rem;
   font-weight: bolder;
   cursor: pointer;
-  text-shadow: -3px 3px 11px grey;
+  text-shadow: -1px 1px 5px grey;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), black); }
 
 #carrousel--bajada {
@@ -650,7 +653,9 @@ aside p {
   align-self: center;
   background-color: #eb9f13;
   margin-top: 5px;
-  padding: 3px; }
+  padding: 3px;
+  cursor: pointer;
+  text-shadow: 1px 1px 1px #3b3b3b; }
 
 #index_card-alto {
   height: auto; }
