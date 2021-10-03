@@ -1,352 +1,252 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Plano Detalle: Cine, TV y Series. Reseñas, Críticas, Trailers</title>
-    <meta
-      name="description"
-      content="Plano Detalle está dedicada a informar las últimas novedades del mundo del entretenimiento televisivo, cinematográfico y servicios de streaming. También, encontrarán los artículos especializados -recomendaciones, críticas- sobre los films y las series más vistas."
-    />
-    <meta
-      name="keywords"
-      content="PLANO DETALLE, CINE, TV, SERIES, FILM, FILMOGRAFÍA, PELÍCULAS, TAQUILLA,  REVIEW, SPOILER, FICCIÓN, RECOMENDACIONES, CRÍTICAS, RESEÑAS, ANÁLISIS, NOTICIAS, NOVEDADES, ENTRETENIMIENTO, STREAMING, NETFILX, AMAZON, DISNEY, MARVEL, HBO, WARNER, PIXAR, ANIME, ANIMACIÓN, CINE DE CULTO"
-    />
-    <script
-      src="https://kit.fontawesome.com/39be638669.js"
-      crossorigin="anonymous"
-    ></script>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="css/estilo.css" />
-  </head>
-  <body class="body">
-    <div class="body__bordes">
-      <nav
-        class="navbar navbar-expand-lg navbar-dark"
-        style="background-color: black"
-        id="nav_stick"
-      >
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html"
-            ><img src="images/logo.png" alt="Logo Plano Detalle"
-          /></a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarTogglerDemo02"
-            aria-controls="navbarTogglerDemo02"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul id="nav_ancho_menu" class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a id="a_color" class="nav-link" href="pages/cine.html">CINE</a>
-              </li>
-              <li class="nav-item">
-                <a id="a_color" class="nav-link" href="pages/tv.html">TV</a>
-              </li>
-              <li class="nav-item">
-                <a id="a_color" class="nav-link" href="pages/nosotros.html"
-                  >NOSOTROS</a
-                >
-              </li>
-              <li class="nav-item">
-                <a id="a_color" class="nav-link" href="pages/contactenos.html"
-                  >CONTÁCTENOS</a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <header>
-        <h1 class="header">
-          Plano Detalle: la web N°1 de cine, series y entretenimiento
-        </h1>
-      </header>
-      <div class="barra__flex">
-        <form class="d-flex barra barra__padding">
-          <input
-            class="form-control me-2"
-            type="search"
-            placeholder="Ingrese su busqueda aquí"
-            aria-label="Search"
-          />
-          <button
-            id="barra_boton"
-            class="btn btn-outline-success barra__boton--color"
-            type="submit"
-          >
-            Buscar
-          </button>
-        </form>
-      </div>
-      <main>
-        <h2 class="h__dos" id="web_novedades">NOVEDADES</h2>
-        <div class="index__carrousel--background">
-          <section id="carrousel" class="container">
-            <div
-              id="carouselExampleCaptions"
-              class="carousel slide index__carrousel--padding"
-              data-bs-ride="carousel"
-            >
-              <div class="carousel-indicators">
-                <button
-                  type="button"
-                  data-bs-target="#carouselExampleCaptions"
-                  data-bs-slide-to="0"
-                  class="active"
-                  aria-current="true"
-                  aria-label="Slide 1"
-                ></button>
-                <button
-                  type="button"
-                  data-bs-target="#carouselExampleCaptions"
-                  data-bs-slide-to="1"
-                  aria-label="Slide 2"
-                ></button>
-                <button
-                  type="button"
-                  data-bs-target="#carouselExampleCaptions"
-                  data-bs-slide-to="2"
-                  aria-label="Slide 3"
-                ></button>
-              </div>
-              <div class="carousel-inner">
-                <div class="carousel-item active" id="carrousel--anchoAlto">
-                  <img
-                    src="images/home/loki.png"
-                    class="d-block w-100 img__borde--blanco"
-                    alt="foto Loki1"
-                  />
-                  <div class="carousel-caption d-none d-md-block">
-                    <h3 id="carrousel--parrafo">
-                      Marvel anuncia 2da temporada de "Loki"
-                    </h3>
-                    <p id="carrousel--bajada">
-                      El equipo de guionistas ya está trabajando en nuevas
-                      aventuras del Dios del engaño para una temporada que puede
-                      ver la luz el próximo año.
-                    </p>
-                  </div>
-                </div>
-                <div class="carousel-item" id="carrousel--anchoAlto">
-                  <img
-                    src="images/home/houseOfDragon.png"
-                    class="d-block w-100 img__borde--blanco"
-                    alt="Imagen Houseof Dragon"
-                  />
-                  <div class="carousel-caption d-none d-md-block">
-                    <h3 id="carrousel--parrafo">
-                      "House of Dragon" retrasa su producción
-                    </h3>
-                    <p id="carrousel--bajada">
-                      La precuela de Game of Thrones, de HBO, reprograma su
-                      lanzamiento. Pandemia y costos de producción demoran la
-                      grabación de episodios.
-                    </p>
-                  </div>
-                </div>
-                <div class="carousel-item" id="carrousel--anchoAlto">
-                  <img
-                    src="images/home/suicideSquad.png"
-                    class="d-block w-100 img__borde--blanco"
-                    alt="Imagen Suicide Squad"
-                  />
-                  <div class="carousel-caption d-none d-md-block">
-                    <h3 id="carrousel--parrafo">
-                      Estreno de "Suicide Squad 2" arrasa en taquilla
-                    </h3>
-                    <p id="carrousel--bajada">
-                      El film dirigido por James Gunn -ya aclamada por la
-                      crítica- destronó a Black Widow de Marvel en el podio
-                      semanal.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <button
-                class="carousel-control-prev"
-                type="button"
-                data-bs-target="#carouselExampleCaptions"
-                data-bs-slide="prev"
-              >
-                <span
-                  class="carousel-control-prev-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button
-                class="carousel-control-next"
-                type="button"
-                data-bs-target="#carouselExampleCaptions"
-                data-bs-slide="next"
-              >
-                <span
-                  class="carousel-control-next-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-            </div>
-          </section>
-        </div>
-        <section class="index__margenes">
-          <div class="row row-cols-1 row-cols-md-2 g-4">
-            <div class="col">
-              <div class="card" id="index_card-alto">
-                <h3 class="h__tres" id="index_h-tres">RESEÑAS</h3>
-                <img
-                  src="images/home/evangelion.png"
-                  class="card-img-top"
-                  alt="Imagen Evangelion"
-                  id="index_img-size"
-                />
-                <div class="card-body">
-                  <h5 class="h__cinco">Cine / Reseña</h5>
-                  <h4 class="card-title h__cuatro">
-                    "Evangelion 3.0+1.0": Fin para una revolución animada
-                  </h4>
-                  <p class="card-text parrafo">
-                    La obra distópica da su último fruto del árbol Seinen. La
-                    última película de la saga animada, creada por Hideaki Anno,
-                    se estrenó en Amazon el pasado 16 de agosto y en Plano
-                    Detalle te contamos todos los -valga la redundancia-
-                    detalles!
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card" id="index_card-alto">
-                <h3 class="h__tres" id="index_h-tres">CRÍTICAS</h3>
-                <img
-                  src="images/home/wandaVision.png"
-                  class="card-img-top"
-                  alt="Imagen Wanda Vision"
-                  id="index_img-size"
-                />
-                <div class="card-body">
-                  <h5 class="h__cinco">TV / Crítica</h5>
-                  <h4 class="card-title h__cuatro">
-                    Wandavisión y como procesar la perdida en el mainstream
-                  </h4>
-                  <p class="card-text parrafo">
-                    La ficción emitida por Disney+ logra narrar en gran forma el
-                    duelo ¿Que pasó con Wanda Maximoff, luego de "Avengers:
-                    Endgame"? Marvel explora su estética para contar la historia
-                    de sus protagonistas. Luces y sombras de la primer serie
-                    Marvel.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card" id="index_card-alto">
-                <h3 class="h__tres" id="index_h-tres">NOTICIAS</h3>
-                <img
-                  src="images/home/titans.png"
-                  class="card-img-top"
-                  alt="Imagen Titans"
-                  id="index_img-size"
-                />
-                <div class="card-body">
-                  <h5 class="h__cinco">TV / Noticias</h5>
-                  <h4 class="card-title h__cuatro">
-                    La 2da temporada de Titans promete "más oscuridad"
-                  </h4>
-                  <p class="card-text parrafo">
-                    En una reciente entrevista, los productores de "Titans"
-                    dejaron entrever que la segunda temporada de la serie será
-                    "más oscura que la anterior". El rol de Bruce Wayne y sus
-                    pupilos en el centro de las teorías del fandom.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card" id="index_card-alto">
-                <h3 class="h__tres" id="index_h-tres">ANÁLISIS</h3>
-                <img
-                  src="images/home/strangerThings.png"
-                  class="card-img-top"
-                  alt="Imagen Stranger Things"
-                  id="index_img-size"
-                />
-                <div class="card-body">
-                  <h5 class="h__cinco">TV / Análisis</h5>
-                  <h4 class="card-title h__cuatro">
-                    Stranger Things y un fugaz paso (¿éxito?) por los '80
-                  </h4>
-                  <p class="card-text parrafo">
-                    El producto de Neflix irrumpió con fuerza, en el mainstream
-                    cultural, desde la simbología de los 80. Pero, con su última
-                    temporada, parece irse sin pena ni gloria. En Plano Detalle
-                    desandamos los motivos para tan vertiginoso ascenso y
-                    descenso.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </main>
-      <footer class="grillaFooter">
-        <div>
-          <ul class="footer__menu">
-            <div class="logo">
-              <a href="index.html"
-                ><img src="images/logo.png" alt="Logo Plano Detalle"
-              /></a>
-            </div>
-            <div class="menu">
-              <div>
-                <li>
-                  <a id="a_color" id="footer_menu-boton" href="pages/cine.html"
-                    >Cine</a
-                  >
-                </li>
-                <li>
-                  <a id="a_color" href="pages/tv.html">Tv</a>
-                </li>
-              </div>
-              <div>
-                <li>
-                  <a id="a_color" href="pages/nosotros.html">Nosotros</a>
-                </li>
-                <li>
-                  <a id="a_color" href="pages/contactenos.html">Contáctenos</a>
-                </li>
-              </div>
-            </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Plano Detalle: Cine, TV y Series. Reseñas, Críticas, Trailers</title>
+  <meta name="description"
+    content="Plano Detalle está dedicada a informar las últimas novedades del mundo del entretenimiento televisivo, cinematográfico y servicios de streaming. También, encontrarán los artículos especializados -recomendaciones, críticas- sobre los films y las series más vistas." />
+  <meta name="keywords"
+    content="PLANO DETALLE, CINE, TV, SERIES, FILM, FILMOGRAFÍA, PELÍCULAS, TAQUILLA,  REVIEW, SPOILER, FICCIÓN, RECOMENDACIONES, CRÍTICAS, RESEÑAS, ANÁLISIS, NOTICIAS, NOVEDADES, ENTRETENIMIENTO, STREAMING, NETFILX, AMAZON, DISNEY, MARVEL, HBO, WARNER, PIXAR, ANIME, ANIMACIÓN, CINE DE CULTO" />
+  <script src="https://kit.fontawesome.com/39be638669.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/estilo.css" />
+</head>
+
+<body class="body">
+  <div class="body__bordes">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: black" id="nav_stick">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="Logo Plano Detalle" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul id="nav_ancho_menu" class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a id="a_color" class="nav-link" href="pages/cine.html">CINE</a>
+            </li>
+            <li class="nav-item">
+              <a id="a_color" class="nav-link" href="pages/tv.html">TV</a>
+            </li>
+            <li class="nav-item">
+              <a id="a_color" class="nav-link" href="pages/nosotros.html">NOSOTROS</a>
+            </li>
+            <li class="nav-item">
+              <a id="a_color" class="nav-link" href="pages/contactenos.html">CONTÁCTENOS</a>
+            </li>
           </ul>
         </div>
-        <div class="iconosRedes">
-          <i class="fab fa-facebook-square footer__icono--fb"></i>
-          <i class="fab fa-twitter-square footer__icono--tw"></i>
-          <i class="fab fa-instagram footer__icono--ig"></i>
-        </div>
-        <div class="footer__menu--copyRight copyRight">
-          <i class="far fa-copyright" id="copy_R"></i>
-          <p>Copyright. Esta web está diseñada por Juan Martín Iummato</p>
-        </div>
-      </footer>
+      </div>
+    </nav>
+    <header>
+      <h1 class="header">
+        Plano Detalle: la web N°1 de cine, series y entretenimiento
+      </h1>
+    </header>
+    <div class="barra__flex">
+      <form class="d-flex barra barra__padding">
+        <input class="form-control me-2" type="search" placeholder="Ingrese su busqueda aquí" aria-label="Search" />
+        <button id="barra_boton" class="btn btn-outline-success barra__boton--color" type="submit">
+          Buscar
+        </button>
+      </form>
     </div>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    <main>
+      <h2 class="h__dos" id="web_novedades">NOVEDADES</h2>
+      <div class="index__carrousel--background">
+        <section id="carrousel" class="container">
+          <div id="carouselExampleCaptions" class="carousel slide index__carrousel--padding" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" id="carrousel--anchoAlto">
+                <img src="images/home/loki.png" class="d-block w-100 img__borde--blanco" alt="foto Loki1" />
+                <div class="carousel-caption d-none d-md-block">
+                  <h3 id="carrousel--parrafo">
+                    Marvel anuncia 2da temporada de "Loki"
+                  </h3>
+                  <p id="carrousel--bajada">
+                    El equipo de guionistas ya está trabajando en nuevas
+                    aventuras del Dios del engaño para una temporada que puede
+                    ver la luz el próximo año.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item" id="carrousel--anchoAlto">
+                <img src="images/home/houseOfDragon.png" class="d-block w-100 img__borde--blanco"
+                  alt="Imagen Houseof Dragon" />
+                <div class="carousel-caption d-none d-md-block">
+                  <h3 id="carrousel--parrafo">
+                    "House of Dragon" retrasa su producción
+                  </h3>
+                  <p id="carrousel--bajada">
+                    La precuela de Game of Thrones, de HBO, reprograma su
+                    lanzamiento. Pandemia y costos de producción demoran la
+                    grabación de episodios.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item" id="carrousel--anchoAlto">
+                <img src="images/home/suicideSquad.png" class="d-block w-100 img__borde--blanco"
+                  alt="Imagen Suicide Squad" />
+                <div class="carousel-caption d-none d-md-block">
+                  <h3 id="carrousel--parrafo">
+                    Estreno de "Suicide Squad 2" arrasa en taquilla
+                  </h3>
+                  <p id="carrousel--bajada">
+                    El film dirigido por James Gunn -ya aclamada por la
+                    crítica- destronó a Black Widow de Marvel en el podio
+                    semanal.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
+      </div>
+      <section class="index__margenes">
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+          <div class="col">
+            <div class="card" id="index_card-alto">
+              <h3 class="h__tres" id="index_h-tres">RESEÑAS</h3>
+              <img src="images/home/evangelion.png" class="card-img-top" alt="Imagen Evangelion" id="index_img-size" />
+              <div class="card-body">
+                <h5 class="h__cinco">Cine / Reseña</h5>
+                <h4 class="card-title h__cuatro">
+                  "Evangelion 3.0+1.0": Fin para una revolución animada
+                </h4>
+                <p class="card-text parrafo">
+                  La obra distópica da su último fruto del árbol Seinen. La
+                  última película de la saga animada, creada por Hideaki Anno,
+                  se estrenó en Amazon el pasado 16 de agosto y en Plano
+                  Detalle te contamos todos los -valga la redundancia-
+                  detalles!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" id="index_card-alto">
+              <h3 class="h__tres" id="index_h-tres">CRÍTICAS</h3>
+              <img src="images/home/wandaVision.png" class="card-img-top" alt="Imagen Wanda Vision"
+                id="index_img-size" />
+              <div class="card-body">
+                <h5 class="h__cinco">TV / Crítica</h5>
+                <h4 class="card-title h__cuatro">
+                  Wandavisión y como procesar la perdida en el mainstream
+                </h4>
+                <p class="card-text parrafo">
+                  La ficción emitida por Disney+ logra narrar en gran forma el
+                  duelo ¿Que pasó con Wanda Maximoff, luego de "Avengers:
+                  Endgame"? Marvel explora su estética para contar la historia
+                  de sus protagonistas. Luces y sombras de la primer serie
+                  Marvel.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" id="index_card-alto">
+              <h3 class="h__tres" id="index_h-tres">NOTICIAS</h3>
+              <img src="images/home/titans.png" class="card-img-top" alt="Imagen Titans" id="index_img-size" />
+              <div class="card-body">
+                <h5 class="h__cinco">TV / Noticias</h5>
+                <h4 class="card-title h__cuatro">
+                  La 2da temporada de Titans promete "más oscuridad"
+                </h4>
+                <p class="card-text parrafo">
+                  En una reciente entrevista, los productores de "Titans"
+                  dejaron entrever que la segunda temporada de la serie será
+                  "más oscura que la anterior". El rol de Bruce Wayne y sus
+                  pupilos en el centro de las teorías del fandom.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" id="index_card-alto">
+              <h3 class="h__tres" id="index_h-tres">ANÁLISIS</h3>
+              <img src="images/home/strangerThings.png" class="card-img-top" alt="Imagen Stranger Things"
+                id="index_img-size" />
+              <div class="card-body">
+                <h5 class="h__cinco">TV / Análisis</h5>
+                <h4 class="card-title h__cuatro">
+                  Stranger Things y un fugaz paso (¿éxito?) por los '80
+                </h4>
+                <p class="card-text parrafo">
+                  El producto de Neflix irrumpió con fuerza, en el mainstream
+                  cultural, desde la simbología de los 80. Pero, con su última
+                  temporada, parece irse sin pena ni gloria. En Plano Detalle
+                  desandamos los motivos para tan vertiginoso ascenso y
+                  descenso.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="grillaFooter">
+      <div>
+        <ul class="footer__menu">
+          <div class="logo">
+            <a href="index.html"><img src="images/logo.png" alt="Logo Plano Detalle" /></a>
+          </div>
+          <div class="menu">
+            <div>
+              <li>
+                <a id="a_color" id="footer_menu-boton" href="pages/cine.html">Cine</a>
+              </li>
+              <li>
+                <a id="a_color" href="pages/tv.html">Tv</a>
+              </li>
+            </div>
+            <div>
+              <li>
+                <a id="a_color" href="pages/nosotros.html">Nosotros</a>
+              </li>
+              <li>
+                <a id="a_color" href="pages/contactenos.html">Contáctenos</a>
+              </li>
+            </div>
+          </div>
+        </ul>
+      </div>
+      <div class="iconosRedes">
+        <i class="fab fa-facebook-square footer__icono--fb"></i>
+        <i class="fab fa-twitter-square footer__icono--tw"></i>
+        <i class="fab fa-instagram footer__icono--ig"></i>
+      </div>
+      <div class="footer__menu--copyRight copyRight">
+        <i class="far fa-copyright" id="copy_R"></i>
+        <p>Copyright. Esta web está diseñada por Juan Martín Iummato</p>
+      </div>
+    </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
+  </script>
+</body>
+
 </html>
