@@ -45,7 +45,15 @@ main {
 .img__borde--blanco:hover {
   border: white 4px;
   border-style: inset;
+  opacity: 0.7;
 }
+
+mark{
+color: $colorTextoResaltado;
+font-weight: bold;
+background-color: $colorResaltado;
+}
+
 /* NAV //////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 nav {
@@ -58,7 +66,6 @@ nav {
       ul {
         li {
           a:hover {
-            transition: all 0.3s;
             background-color: $colorTransicionNav;
             border-radius: 10px;
             padding: 2px;

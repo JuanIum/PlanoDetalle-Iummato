@@ -25,14 +25,6 @@
   }
 }
 
-@media only screen and (max-width: 600px) {
-  .contactenos__icono--flex {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-}
-
 #contactenos_texto-sm {
   font-weight: bold;
   margin-left: 5px;
@@ -48,7 +40,7 @@
   margin-top: 10px;
   margin-bottom: 10px;
   &--set {
-    width: 48%;
+    width: 90%;
     height: auto;
     align-self: center;
     background-color: $colorFondoFormulario;
@@ -83,4 +75,46 @@
   &--borde {
     border: 5px solid $colorBordeFormulario;
   }
+}
+
+// MEDIA QUERIE //
+
+@media only screen and (max-width: 600px) {
+  .contactenos__icono--flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media only screen and (min-width: 932px){
+
+.contactenos__form {
+  display: flex;
+  height: auto;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  &--set {
+    width: 60%;
+    height: auto;
+    align-self: center;
+    background-color: $colorFondoFormulario;
+    color: $colorParrafoFormulario;
+    font-weight: bold;
+    padding: 7px;
+    border: $colorBordeFormulario 5px solid;
+  }
+  &--margen {
+    margin-top: 10px;
+  }
+  &--botones {
+    text-align: center;
+  }
+  &__boton--borde {
+    border: $colorBordeFormulario 3px solid;
+  }
+}
+
+
 }

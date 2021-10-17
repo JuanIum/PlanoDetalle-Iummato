@@ -1,9 +1,10 @@
 //WEB - NOSOTROS : CLASES Y ID ESPECÍFICAS ///////////////////////////////////////////////////////////////////////////
 
 .nosotros__parrafo {
-  text-align: justify;
+  text-align: left;
 }
 
 #nosotros_borde {
   border-top: 5px solid $colorBordeNosotros;
+  padding-top: 8px;
 }

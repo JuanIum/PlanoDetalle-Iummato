@@ -1,15 +1,17 @@
 // VARIABLES - COLORES //
 
 // GENERALES
-$colorFondoBody: whitesmoke;
+$colorFondoBody: rgb(241, 238, 238);
 $colorMargenesBody: black;
 $colorParrafo: rgb(26, 21, 21);
 $colorEnlace: white;
 $colorLetras: white;
 $bordeImg: rgb(10, 114, 114);
+$colorResaltado: rgb(238, 238, 18);
+$colorTextoResaltado: rgb(12, 71, 71);
 
 // NAV
-$colorTransicionNav: rgb(10, 114, 114);
+$colorTransicionNav: rgb(9, 87, 87);
 $colorNav: black;
 
 // BARRA DE NAVEGACIÓN
@@ -30,6 +32,7 @@ $colorFondoCarrousel: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1));
 $colorIndexCarrousel: black;
 $colorEfectoSombra: grey;
 $colorSobraOscura: rgb(71, 69, 69);
+$colorFondoCard: rgb(223, 219, 219);
 
 // FOOTER
 $colorFooter: black;
@@ -47,7 +50,6 @@ $colorFondoHtres: rgb(235, 159, 19);
 $colorHcinco: rgb(235, 159, 19);
 
 // NOSOTROS
-$colorFondoNosotros: whitesmoke;
 $colorBordeNosotros: rgb(156, 61, 61);
 
 //CONTACTENOS
