@@ -1,9 +1,45 @@
 // MEDIA QUERIES: ANCHOS DE PANTALLA PARA: CELULAR / TABLET / PC /////////////////////////////////////////////////
 
 //WEB - INDEX //
-@media only screen and (max-width: 971px) {
+@media only screen and (max-width: 600px) {
+.barra {
+  border: 1px $colorBordeBarra solid;
+  &__flex {
+    padding-left: 10%;
+    background-color: $colorNav;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  &__boton--color {
+    background-color: $colorBarraBoton;
+    font-weight: bold;
+    color: $colorNav;
+  }
+  &__padding {
+    padding: 5px;
+  }
+}
+}
+@media only screen and (max-width: 932px) {
   #carrousel--bajada {
     display: none;
+  }
+  .barra {
+  border: 1px $colorBordeBarra solid;
+  &__flex {
+    padding-left: 10%;
+    background-color: $colorNav;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  &__boton--color {
+    background-color: $colorBarraBoton;
+    font-weight: bold;
+    color: $colorNav;
+  }
+  &__padding {
+    padding: 5px;
+  }
   }
 }
 

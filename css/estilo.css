@@ -39,7 +39,7 @@ main img {
   opacity: 0.7; }
 
 mark {
-  color: #0c4747;
+  color: #093a3a;
   font-weight: bold;
   background-color: #eeee12; }
 
@@ -184,9 +184,37 @@ footer {
   background-color: #860475;
   cursor: pointer; }
 
-@media only screen and (max-width: 971px) {
+@media only screen and (max-width: 600px) {
+  .barra {
+    border: 1px #292828 solid; }
+    .barra__flex {
+      padding-left: 10%;
+      background-color: black;
+      padding-top: 10px;
+      padding-bottom: 10px; }
+    .barra__boton--color {
+      background-color: white;
+      font-weight: bold;
+      color: black; }
+    .barra__padding {
+      padding: 5px; } }
+
+@media only screen and (max-width: 932px) {
   #carrousel--bajada {
-    display: none; } }
+    display: none; }
+  .barra {
+    border: 1px #292828 solid; }
+    .barra__flex {
+      padding-left: 10%;
+      background-color: black;
+      padding-top: 10px;
+      padding-bottom: 10px; }
+    .barra__boton--color {
+      background-color: white;
+      font-weight: bold;
+      color: black; }
+    .barra__padding {
+      padding: 5px; } }
 
 @media only screen and (max-width: 600px) {
   .grilla {
@@ -697,6 +725,40 @@ aside p {
   color: #041818;
   font-weight: bold; }
 
+@media only screen and (max-width: 600px) {
+  #carrousel--bajada {
+    display: none; }
+  .barra {
+    border: 1px #292828 solid; }
+    .barra__flex {
+      padding-left: 1%;
+      background-color: black;
+      padding-top: 10px;
+      padding-bottom: 10px; }
+    .barra__boton--color {
+      background-color: white;
+      font-weight: bold;
+      color: black; }
+    .barra__padding {
+      padding: 5px; } }
+
+@media only screen and (min-width: 601px) and (max-width: 932px) {
+  #carrousel--bajada {
+    display: none; }
+  .barra {
+    border: 1px #292828 solid; }
+    .barra__flex {
+      padding-left: 30%;
+      background-color: black;
+      padding-top: 10px;
+      padding-bottom: 10px; }
+    .barra__boton--color {
+      background-color: white;
+      font-weight: bold;
+      color: black; }
+    .barra__padding {
+      padding: 5px; } }
+
 #carrousel {
   background-image: linear-gradient(black, #052929, black);
   width: 99%; }
@@ -776,19 +838,21 @@ aside p {
   margin-top: 10px;
   margin-bottom: 10px; }
   .contactenos__form--set {
+    padding: 3%;
     width: 90%;
     height: auto;
     align-self: center;
-    background-color: #eb9f13;
+    background-color: #afb2b8;
     color: black;
     font-weight: bold;
-    padding: 7px;
-    border: #052929 5px solid; }
+    border: #052929 5px solid;
+    border-radius: 20px; }
   .contactenos__form--margen {
     margin-top: 10px; }
   .contactenos__form--botones {
     text-align: center; }
   .contactenos__form__boton--borde {
+    border-radius: 10px;
     border: #052929 3px solid; }
 
 .contactenos__tabla {
@@ -807,7 +871,9 @@ aside p {
   .contactenos__icono--flex {
     display: flex;
     flex-direction: column;
-    align-items: center; } }
+    align-items: center; }
+  .contactenos__tabla--alineacion {
+    width: 95%; } }
 
 @media only screen and (min-width: 932px) {
   .contactenos__form {
@@ -820,7 +886,7 @@ aside p {
       width: 60%;
       height: auto;
       align-self: center;
-      background-color: #eb9f13;
+      background-color: #afb2b8;
       color: black;
       font-weight: bold;
       padding: 7px;

@@ -25,12 +25,59 @@
     padding: 5px;
   }
 }
-
 #barra_boton:hover {
   transition: all 0.1s;
   background-color: $colorTransicionBarra;
   color: $colorBarraBuscar;
   font-weight: bold;
+}
+
+// MEDIA QUERIE //
+
+@media only screen and (max-width: 600px) {
+  #carrousel--bajada {
+    display: none;
+  }
+
+.barra {
+  border: 1px $colorBordeBarra solid;
+  &__flex {
+    padding-left: 1%;
+    background-color: $colorNav;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  &__boton--color {
+    background-color: $colorBarraBoton;
+    font-weight: bold;
+    color: $colorNav;
+  }
+  &__padding {
+    padding: 5px;
+  }
+}
+}
+@media only screen and (min-width: 601px) and (max-width: 932px) {
+  #carrousel--bajada {
+    display: none;
+  }
+  .barra {
+  border: 1px $colorBordeBarra solid;
+  &__flex {
+    padding-left: 30%;
+    background-color: $colorNav;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  &__boton--color {
+    background-color: $colorBarraBoton;
+    font-weight: bold;
+    color: $colorNav;
+  }
+  &__padding {
+    padding: 5px;
+  }
+  }
 }
 
 // CARROUSEL //
