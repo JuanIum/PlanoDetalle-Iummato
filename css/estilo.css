@@ -17,7 +17,7 @@
   color: white;
   text-decoration: none; }
 
-.error {
+.link__web {
   text-decoration: none;
   color: #1a1515; }
 
@@ -661,6 +661,108 @@ footer {
   #copy_R {
     font-size: 25px;
     margin-right: 2%; } }
+
+@media only screen and (min-width: 932px) {
+  .grillaWanda {
+    display: grid;
+    height: 6000px;
+    grid-template-columns: 65% 35%;
+    grid-template-rows: 5% 5% 6% 5% 7% 5% 8% 5% 7% 5% 7% 5% 7% 5% 7% 5% 7%;
+    grid-template-areas: "seccionUno aside" "seccionDos aside" "seccionTres aside" "seccionCuatro aside" "seccionCinco aside" "seccionSeis aside" "seccionSiete aside" "seccionOcho aside" "seccionNueve aside" "seccionDiez aside" "seccionOnce aside" "seccionDoce aside" "seccionTrece aside" "seccionCatorce aside" "seccionQuince aside" "seccionDseis aside" "seccionDsiete aside"; }
+  .seccionUno {
+    grid-area: seccionUno;
+    height: auto;
+    padding-top: 5%;
+    padding-left: 4%;
+    padding-right: 7%; }
+  .seccionDos {
+    grid-area: seccionDos;
+    height: auto; }
+  .seccionTres {
+    grid-area: seccionTres;
+    height: auto;
+    padding-left: 6%;
+    padding-right: 7%; }
+  .seccionCuatro {
+    grid-area: seccionCuatro;
+    height: auto; }
+  .seccionCinco {
+    grid-area: seccionCinco;
+    height: auto;
+    padding-left: 6%;
+    padding-right: 7%; }
+  .seccionSeis {
+    grid-area: seccionSeis;
+    height: auto; }
+  .seccionSiete {
+    grid-area: seccionSiete;
+    height: auto;
+    padding-left: 6%;
+    padding-right: 7%; }
+  .seccionOcho {
+    grid-area: seccionOcho;
+    height: auto; }
+  .seccionNueve {
+    grid-area: seccionNueve;
+    height: auto;
+    padding-left: 6%;
+    padding-right: 7%; }
+  .seccionDiez {
+    grid-area: seccionDiez;
+    height: auto; }
+  .seccionOnce {
+    grid-area: seccionOnce;
+    height: auto;
+    padding-left: 6%;
+    padding-right: 7%; }
+  .seccionDoce {
+    grid-area: seccionDoce;
+    height: auto; }
+  .seccionTrece {
+    grid-area: seccionTrece;
+    height: auto;
+    padding-left: 6%;
+    padding-right: 7%; }
+  .seccionCatorce {
+    grid-area: seccionCatorce;
+    height: auto; }
+  .seccionQuince {
+    grid-area: seccionQuince;
+    height: auto;
+    padding-left: 6%;
+    padding-right: 7%; }
+  .seccionDseis {
+    grid-area: seccionDseis;
+    height: auto; }
+  .seccionDsiete {
+    grid-area: seccionDsiete;
+    height: auto;
+    padding-left: 6%;
+    padding-right: 7%; }
+  .aside {
+    grid-area: aside;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    align-content: center;
+    align-items: center;
+    background-image: linear-gradient(to left, #cfcbcb, #9b9999, #cfcbcb); }
+  .web__wanda--bajada {
+    font-size: 19px;
+    border-left: brown solid 7px;
+    padding-left: 15px; }
+  .web__wanda--parrafo {
+    font-size: 17px; }
+  .web__wanda--titulo {
+    font-size: 35px;
+    color: black;
+    font-weight: bolder;
+    padding-bottom: 3%;
+    padding-left: 2%; }
+  .web__wanda--subtitulo {
+    font-size: 18px;
+    font-weight: bold; } }
 
 .aside__tabla--set {
   border: #0a0a0a 4px solid;
