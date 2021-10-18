@@ -10,28 +10,6 @@
   text-align: center;
 }
 
-#tabla_titulo-cine {
-  background-image: $colorTituloTablaCine;
-  color: $colorTituloCine;
-  margin-bottom: 7px;
-  padding: 5px;
-  height: auto;
-  text-align: center;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-#tabla_titulo-tv {
-  background-image: $colorTituloTablaTv;
-  color: $colorTituloTv;
-  margin-bottom: 7px;
-  padding: 5px;
-  height: auto;
-  text-align: center;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
 aside p {
   background-image: $colorAsideFondoParrafo;
   font-style: italic;
@@ -45,4 +23,15 @@ aside p {
 .web__img--centrada{
 align-items: center;
 justify-content: center;
+}
+
+#titulo_tabla{
+background-color: $colorTituloT;
+color: whitesmoke;
+font-weight: bold;
+font-size: 19px;
+border-top: $colorBordeT 3px solid;
+border-right: $colorBordeT 3px solid;
+border-left: $colorBordeT 3px solid;
+border-bottom: $colorBordeT 3px solid;
 }

@@ -21,6 +21,11 @@
   text-decoration: none;
 }
 
+.error{
+text-decoration: none;
+color: $colorParrafo;
+}
+
 .parrafo {
   font-size: 16px;
   font-family: "gudea", sans-serif;
@@ -169,6 +174,7 @@ header {
 h4:hover {
   font-weight: bolder;
   text-decoration: underline 3px;
+color: $colorParrafo;
   cursor: pointer;
 }
 

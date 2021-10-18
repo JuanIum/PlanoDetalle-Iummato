@@ -65,6 +65,7 @@ $colorArticuloB: rgb(240, 238, 238);
 $colorNotaI: linear-gradient(black, rgb(5, 41, 41), black);
 
 // TABLAS
+
 $colorAside: linear-gradient(
   to left,
   rgb(207, 203, 203),
@@ -72,17 +73,15 @@ $colorAside: linear-gradient(
   rgb(207, 203, 203)
 );
 $colorBordeTabla: rgb(10, 10, 10);
-$colorTituloTablaCine: linear-gradient(
-  rgb(235, 98, 19),
-  rgb(219, 32, 32),
-  rgb(235, 98, 19)
-);
-$colorTituloCine: rgb(250, 250, 16);
-$colorTituloTablaTv: linear-gradient(black, rgb(5, 41, 41), black);
-$colorTituloTv: rgb(250, 250, 16);
+$colorTituloT: rgb(1, 19, 14);
 $colorAsideFondoParrafo: linear-gradient(
   rgb(235, 159, 19),
   rgb(216, 219, 32),
   rgb(235, 159, 19)
 );
-$colorAsideParrafo: rgb(5, 41, 41);
+$colorAsideParrafo: rgb(7, 46, 46);
+$colorBordeT: rgb(49, 49, 49);
+
+//WEB - ERROR 404 
+
+$colorIconoError: rgb(185, 35, 35);

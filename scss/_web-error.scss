@@ -1,0 +1,27 @@
+//WEB - ERRROR : CLASES Y ID ESPECÍFICAS ///////////////////////////////////////////////////////////////////////////
+
+.error__texto{
+text-align: center;
+padding: 10%;
+}
+
+.error__icono{
+font-size: 120px;
+color: $colorIconoError
+}
+
+.error__numero{
+font-size: 100px;
+font-weight: bold;
+padding-top: 3%;
+}
+
+.error__bajada{
+font-size: 30px;
+font-weight: bold;
+}
+
+.error__detalle{
+padding: 5%;
+font-size: 20px;
+}
