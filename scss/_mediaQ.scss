@@ -656,12 +656,388 @@ margin-bottom: 30px;
 
 // WEBS - TV - NOTA WANDAVISION //
 
+@media only screen and (max-width: 600px) {
+  .grillaWanda {
+    display: grid;
+    height: 78000;
+    grid-template-columns: 100%;
+    grid-template-rows: 4% 6% 3% 6% 6% 5% 9% 6% 9% 5% 7% 6% 7% 6% 4% 6% 5%;
+    grid-template-areas:
+      "seccionUno"
+      "seccionDos"
+      "seccionTres"
+      "seccionCuatro"
+      "seccionCinco"
+      "seccionSeis"
+      "seccionSiete"
+      "seccionOcho"
+      "seccionNueve"
+      "seccionDiez"
+      "seccionOnce"
+      "seccionDoce"
+      "seccionTrece"
+      "seccionCatorce"
+      "seccionQuince"
+      "seccionDseis"
+      "seccionDsiete";  
+  }
+  
+  #sinPointer{
+    cursor: auto;
+  }
+  .seccionUno {
+    grid-area: seccionUno;
+    height: auto;
+    padding-top: 5%;
+    padding-left: 4%;
+    padding-right: 7%;
+    padding-bottom: 2%;
+  }
+  .seccionDos {
+    grid-area: seccionDos;
+    height: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4%; 
+    padding-top: 9%;
+}
+  .seccionTres {
+    grid-area: seccionTres;
+    height: auto;
+    padding-left: 6%;
+    padding-right: 7%;
+    padding-top: 3%;  
+}
+  .seccionCuatro {
+    grid-area: seccionCuatro;
+    height: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 6%;
+  }
+  .seccionCinco {
+    grid-area: seccionCinco;
+    height: auto;
+    padding-left: 6%;
+    padding-right: 7%;
+    padding-top: 3%;  
+}
+  .seccionSeis {
+    grid-area: seccionSeis;
+    height: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3%; 
+padding-top: 2%;
+ }
+  .seccionSiete {
+    grid-area: seccionSiete;
+    height: auto;
+    padding-left: 6%;
+    padding-right: 7%;
+    padding-top: 3%;
+  }
+  .seccionOcho {
+    grid-area: seccionOcho;
+    height: auto;
+    text-align: center; 
+    padding-bottom: 3%;
+}
+  .seccionNueve {
+    grid-area: seccionNueve;
+    height: auto;
+    padding-left: 6%;
+    padding-right: 7%;
+    padding-top: 6%;
+
+  }
+  .seccionDiez {
+    grid-area: seccionDiez;
+    height: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .seccionOnce {
+    grid-area: seccionOnce;
+    height: auto;
+    padding-left: 6%;
+    padding-right: 7%;
+    padding-top: 5%;
+  }
+  .seccionDoce {
+    grid-area: seccionDoce;
+    height: auto;
+    text-align: center;
+    cursor: none;
+  }
+  .seccionTrece {
+    grid-area: seccionTrece;
+    height: auto;
+    padding-left: 6%;
+    padding-right: 7%;
+    padding-bottom: 3%;
+  }
+  .seccionCatorce {
+    grid-area: seccionCatorce;
+    height: auto;
+    text-align: center;
+    padding-bottom: 3%;
+    padding-top: 1%;
+  }
+  .seccionQuince {
+    grid-area: seccionQuince;
+    height: auto;
+    padding-left: 6%;
+    padding-right: 7%;
+    padding-top: 2%;
+  }
+  .seccionDseis {
+    grid-area: seccionDseis;
+    height: auto;
+    text-align: center;
+    padding-top: 4%;
+  }
+  .seccionDsiete {
+    grid-area: seccionDsiete;
+    height: auto;
+    padding-left: 6%;
+    padding-right: 7%;
+    padding-top: 1%;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .aside {
+    display: none;
+  }
+
+.web__wanda--bajada{
+font-size: 19px;
+border-left: brown solid 7px;
+padding-left: 15px;
+
+}
+.web__wanda--parrafo{
+font-size: 17px;
+}
+.web__wanda--titulo{
+font-size: 35px;
+color: black;
+font-weight: bolder;
+padding-bottom: 3%;
+padding-left: 2%;
+}
+.web__wanda--subtitulo{
+font-size: 18px;
+font-weight: bold;
+}
+
+}
+
+@media only screen and (min-width: 601px) and (max-width: 931px) {
+  .grillaWanda {
+    display: grid;
+    height: 78000;
+    grid-template-columns: 100%;
+    grid-template-rows: 4% 6% 3% 6% 6% 5% 9% 6% 9% 5% 7% 6% 7% 6% 4% 6% 5%;
+    grid-template-areas:
+      "seccionUno"
+      "seccionDos"
+      "seccionTres"
+      "seccionCuatro"
+      "seccionCinco"
+      "seccionSeis"
+      "seccionSiete"
+      "seccionOcho"
+      "seccionNueve"
+      "seccionDiez"
+      "seccionOnce"
+      "seccionDoce"
+      "seccionTrece"
+      "seccionCatorce"
+      "seccionQuince"
+      "seccionDseis"
+      "seccionDsiete";  
+  }
+  
+  #sinPointer{
+    cursor: auto;
+  }
+  .seccionUno {
+    grid-area: seccionUno;
+    height: auto;
+    padding-top: 5%;
+    padding-left: 4%;
+    padding-right: 7%;
+    padding-bottom: 2%;
+  }
+  .seccionDos {
+    grid-area: seccionDos;
+    height: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4%; 
+    padding-top: 9%;
+}
+  .seccionTres {
+    grid-area: seccionTres;
+    height: auto;
+    padding-left: 6%;
+    padding-right: 7%;
+    padding-top: 3%;  
+}
+  .seccionCuatro {
+    grid-area: seccionCuatro;
+    height: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 6%;
+  }
+  .seccionCinco {
+    grid-area: seccionCinco;
+    height: auto;
+    padding-left: 6%;
+    padding-right: 7%;
+    padding-top: 3%;  
+}
+  .seccionSeis {
+    grid-area: seccionSeis;
+    height: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3%; 
+padding-top: 2%;
+ }
+  .seccionSiete {
+    grid-area: seccionSiete;
+    height: auto;
+    padding-left: 6%;
+    padding-right: 7%;
+    padding-top: 3%;
+  }
+  .seccionOcho {
+    grid-area: seccionOcho;
+    height: auto;
+    text-align: center; 
+    padding-bottom: 3%;
+}
+  .seccionNueve {
+    grid-area: seccionNueve;
+    height: auto;
+    padding-left: 6%;
+    padding-right: 7%;
+    padding-top: 6%;
+
+  }
+  .seccionDiez {
+    grid-area: seccionDiez;
+    height: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .seccionOnce {
+    grid-area: seccionOnce;
+    height: auto;
+    padding-left: 6%;
+    padding-right: 7%;
+    padding-top: 5%;
+  }
+  .seccionDoce {
+    grid-area: seccionDoce;
+    height: auto;
+    text-align: center;
+    cursor: none;
+  }
+  .seccionTrece {
+    grid-area: seccionTrece;
+    height: auto;
+    padding-left: 6%;
+    padding-right: 7%;
+    padding-bottom: 3%;
+  }
+  .seccionCatorce {
+    grid-area: seccionCatorce;
+    height: auto;
+    text-align: center;
+    padding-bottom: 3%;
+    padding-top: 1%;
+  }
+  .seccionQuince {
+    grid-area: seccionQuince;
+    height: auto;
+    padding-left: 6%;
+    padding-right: 7%;
+    padding-top: 2%;
+  }
+  .seccionDseis {
+    grid-area: seccionDseis;
+    height: auto;
+    text-align: center;
+    padding-top: 4%;
+  }
+  .seccionDsiete {
+    grid-area: seccionDsiete;
+    height: auto;
+    padding-left: 6%;
+    padding-right: 7%;
+    padding-top: 1%;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .aside {
+    display: none;
+  }
+
+.web__wanda--bajada{
+font-size: 19px;
+border-left: brown solid 7px;
+padding-left: 15px;
+
+}
+.web__wanda--parrafo{
+font-size: 17px;
+}
+.web__wanda--titulo{
+font-size: 35px;
+color: black;
+font-weight: bolder;
+padding-bottom: 3%;
+padding-left: 2%;
+}
+.web__wanda--subtitulo{
+font-size: 18px;
+font-weight: bold;
+}
+
+}
+
 @media only screen and (min-width: 932px) {
   .grillaWanda {
     display: grid;
-    height: 6000px;
+    height: 78000;
     grid-template-columns: 65% 35%;
-    grid-template-rows: 5% 5% 6% 5% 7% 5% 8% 5% 7% 5% 7% 5% 7% 5% 7% 5% 7%;
+    grid-template-rows: 4% 6% 3% 6% 6% 5% 9% 6% 9% 5% 7% 6% 7% 6% 4% 6% 5%;
     grid-template-areas:
       "seccionUno aside"
       "seccionDos aside"
@@ -680,94 +1056,142 @@ margin-bottom: 30px;
       "seccionQuince aside"
       "seccionDseis aside"
       "seccionDsiete aside";  
-}
-
+  }
+  
+  #sinPointer{
+    cursor: auto;
+  }
   .seccionUno {
     grid-area: seccionUno;
     height: auto;
     padding-top: 5%;
     padding-left: 4%;
     padding-right: 7%;
+    padding-bottom: 2%;
   }
   .seccionDos {
     grid-area: seccionDos;
     height: auto;
-  }
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4%; 
+    padding-top: 9%;
+}
   .seccionTres {
     grid-area: seccionTres;
     height: auto;
     padding-left: 6%;
     padding-right: 7%;
-  }
+    padding-top: 3%;  
+}
   .seccionCuatro {
     grid-area: seccionCuatro;
     height: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 6%;
   }
   .seccionCinco {
     grid-area: seccionCinco;
     height: auto;
     padding-left: 6%;
     padding-right: 7%;
-  }
+    padding-top: 3%;  
+}
   .seccionSeis {
     grid-area: seccionSeis;
     height: auto;
-  }
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3%; 
+padding-top: 2%;
+ }
   .seccionSiete {
     grid-area: seccionSiete;
     height: auto;
     padding-left: 6%;
     padding-right: 7%;
+    padding-top: 3%;
   }
   .seccionOcho {
     grid-area: seccionOcho;
     height: auto;
-  }
+    text-align: center; 
+    padding-bottom: 3%;
+}
   .seccionNueve {
     grid-area: seccionNueve;
     height: auto;
     padding-left: 6%;
     padding-right: 7%;
+    padding-top: 6%;
+
   }
   .seccionDiez {
     grid-area: seccionDiez;
     height: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .seccionOnce {
     grid-area: seccionOnce;
     height: auto;
     padding-left: 6%;
     padding-right: 7%;
+    padding-top: 5%;
   }
   .seccionDoce {
     grid-area: seccionDoce;
     height: auto;
+    text-align: center;
+    cursor: none;
   }
   .seccionTrece {
     grid-area: seccionTrece;
     height: auto;
     padding-left: 6%;
     padding-right: 7%;
+    padding-bottom: 3%;
   }
   .seccionCatorce {
     grid-area: seccionCatorce;
     height: auto;
+    text-align: center;
+    padding-bottom: 3%;
+    padding-top: 1%;
   }
   .seccionQuince {
     grid-area: seccionQuince;
     height: auto;
     padding-left: 6%;
     padding-right: 7%;
+    padding-top: 2%;
   }
   .seccionDseis {
     grid-area: seccionDseis;
     height: auto;
+    text-align: center;
+    padding-top: 4%;
   }
   .seccionDsiete {
     grid-area: seccionDsiete;
     height: auto;
     padding-left: 6%;
     padding-right: 7%;
+    padding-top: 1%;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   .aside {
     grid-area: aside;
