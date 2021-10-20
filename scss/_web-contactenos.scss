@@ -49,6 +49,9 @@
     font-weight: bold;
     border: $colorBordeFormulario 5px solid;
     border-radius: 20px;
+    box-shadow: 16px 10px 5px 0px rgba(0,0,0,0.57);
+    -webkit-box-shadow: 16px 10px 5px 0px rgba(0,0,0,0.57);
+    -moz-box-shadow: 16px 10px 5px 0px rgba(0,0,0,0.57);
   }
   &--margen {
     margin-top: 10px;
@@ -57,8 +60,8 @@
     text-align: center;
   }
   &__boton--borde {
-border-radius: 10px;    
-border: $colorBordeFormulario 3px solid;
+    border-radius: 10px;    
+    border: $colorBordeFormulario 3px solid;
   }
 }
 
@@ -73,6 +76,9 @@ border: $colorBordeFormulario 3px solid;
   margin-top: 10px;
   &--alineacion {
     width: 60%;
+    box-shadow: 16px 10px 5px 0px rgba(11,125,22,0.4);
+    -webkit-box-shadow: 16px 10px 5px 0px rgba(11,125,22,0.4);
+    -moz-box-shadow: 16px 10px 5px 0px rgba(11,125,22,0.4);
   }
   &--borde {
     border: 5px solid $colorBordeFormulario;

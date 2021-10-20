@@ -97,7 +97,11 @@ header {
   font-size: 37px;
   border: 5px #292828;
   border-style: groove;
-  height: auto; }
+  height: auto;
+  text-shadow: -2px 2px 15px #e4d8d8;
+  box-shadow: -2px -1px 27px 16px rgba(0, 0, 0, 0.62);
+  -webkit-box-shadow: -2px -1px 27px 16px rgba(0, 0, 0, 0.62);
+  -moz-box-shadow: -2px -1px 27px 16px rgba(0, 0, 0, 0.62); }
 
 /* H (2,3,4,5) */
 .h {
@@ -690,6 +694,7 @@ footer {
     padding-left: 4%;
     padding-right: 4%; }
   .web__wanda--titulo {
+    text-shadow: 1px -1px 3px #584444;
     font-size: 35px;
     color: black;
     font-weight: bolder;
@@ -739,6 +744,7 @@ footer {
     padding-left: 4%;
     padding-right: 4%; }
   .web__wanda--titulo {
+    text-shadow: 1px -1px 3px #584444;
     font-size: 35px;
     color: black;
     font-weight: bolder;
@@ -795,6 +801,7 @@ footer {
     padding-left: 4%;
     padding-right: 4%; }
   .web__wanda--titulo {
+    text-shadow: 1px 1px 2px #584444;
     font-size: 35px;
     color: black;
     font-weight: bolder;
@@ -818,7 +825,10 @@ footer {
 
 .aside__tabla--set {
   border: #0a0a0a 4px solid;
-  font-size: 17px; }
+  font-size: 17px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.57);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.57); }
 
 .aside__tabla--margenes {
   margin-left: 8%;
@@ -995,7 +1005,10 @@ aside p {
     color: black;
     font-weight: bold;
     border: #052929 5px solid;
-    border-radius: 20px; }
+    border-radius: 20px;
+    box-shadow: 16px 10px 5px 0px rgba(0, 0, 0, 0.57);
+    -webkit-box-shadow: 16px 10px 5px 0px rgba(0, 0, 0, 0.57);
+    -moz-box-shadow: 16px 10px 5px 0px rgba(0, 0, 0, 0.57); }
   .contactenos__form--margen {
     margin-top: 10px; }
   .contactenos__form--botones {
@@ -1012,7 +1025,10 @@ aside p {
   text-align: center;
   margin-top: 10px; }
   .contactenos__tabla--alineacion {
-    width: 60%; }
+    width: 60%;
+    box-shadow: 16px 10px 5px 0px rgba(11, 125, 22, 0.4);
+    -webkit-box-shadow: 16px 10px 5px 0px rgba(11, 125, 22, 0.4);
+    -moz-box-shadow: 16px 10px 5px 0px rgba(11, 125, 22, 0.4); }
   .contactenos__tabla--borde {
     border: 5px solid #052929; }
 

@@ -126,6 +126,10 @@ header {
   border: 5px $colorHeaderBorde;
   border-style: groove;
   height: auto;
+  text-shadow: -2px 2px 15px rgb(228, 216, 216);
+  box-shadow: -2px -1px 27px 16px rgba(0,0,0,0.62);
+  -webkit-box-shadow: -2px -1px 27px 16px rgba(0,0,0,0.62);
+  -moz-box-shadow: -2px -1px 27px 16px rgba(0,0,0,0.62);
 }
 
 /* H (2,3,4,5) */ //////////////////////////////////////////////////////////////////////////////////////////////////
