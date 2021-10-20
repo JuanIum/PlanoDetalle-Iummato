@@ -1034,9 +1034,9 @@ aside p {
   margin-top: 10px; }
   .contactenos__tabla--alineacion {
     width: 60%;
-    box-shadow: 16px 10px 5px 0px rgba(11, 125, 22, 0.4);
-    -webkit-box-shadow: 16px 10px 5px 0px rgba(11, 125, 22, 0.4);
-    -moz-box-shadow: 16px 10px 5px 0px rgba(11, 125, 22, 0.4); }
+    box-shadow: 7px 5px 5px 0px rgba(11, 125, 22, 0.4);
+    -webkit-box-shadow: 7px 5px 5px 0px rgba(11, 125, 22, 0.4);
+    -moz-box-shadow: 7px 5px 5px 0px rgba(11, 125, 22, 0.4); }
   .contactenos__tabla--borde {
     border: 5px solid #052929; }
 
@@ -1046,7 +1046,7 @@ aside p {
     flex-direction: column;
     align-items: center; }
   .contactenos__tabla--alineacion {
-    width: 95%; } }
+    width: 90%; } }
 
 @media only screen and (min-width: 932px) {
   .contactenos__form {
